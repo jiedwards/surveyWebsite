@@ -1,7 +1,7 @@
 
 # Survey Website
 
-The Calorie Counter App allows a user to recieve a personalised caloric maintenance figure, the calculation takes place one the user has registered an account on the app and entered the specified data.
+The Survey Website allows a user to recieve create an account, develop survey's and share them.
 
 ## Getting Started
 ----
