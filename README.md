@@ -10,14 +10,16 @@ Run a server, XAMPP is recommended, load this entire folder into HTDOCS and then
 -> = navigate to
 <h4>A survey must be taken before the results page will work!</h4>
 
-(Regular account test. Username: "barrym", Password: "letmein".) 
+### Regular account test.
+***
+(Username: "barrym", Password: "letmein".) 
 Create Data -> Sign up/Sign in -> My Account -> Design and Analysis (Menu bar with toggle options for competitors)
 
-Public Surveys -> Click on "Sample Survey" to view survey questions -> Take Survey -> Results -> "Click HERE to take the survey again" in order to re-take a survey -> Share this survey -> 
-
-My Survey's -> Add a new survey -> Edit -> Update title/ Add Question / Update survey visibility -> Share survey -> Delete survey ->
+Public Surveys -> Click on "Sample Survey" to view survey questions -> Take Survey -> Results -> "Click HERE to take the survey again" in order to re-take a survey -> Share this survey -> My Survey's -> Add a new survey -> Edit -> Update title/ Add Question / Update survey visibility -> Share survey -> Delete survey ->
 ----
-(Admin account test. Username: "admin", Password: "secret".)
+### Admin account test
+***
+(Username: "admin", Password: "secret".)
 Create Data -> Sign in -> My Account -> Design and Analysis (Menu bar with toggle options for competitors
 
 Public Surveys -> Click on "Sample Survey" to view survey questions -> Take survey -> Results -> "Click HERE to take the survey again" in order to re-take a survey -> Share this survey -> 
@@ -33,21 +35,6 @@ Admin tools -> Users/Surveys (Admin has access to all surveys in this portion of
 ### Prerequisites
 ----
 * XAMPP
-
-### Installing
-----
-
-***
-
-
-***
-
-
-## Built With
-
-* [Android Studio](https://developer.android.com/studio) - The IDE used to develop the app's functionality and UI.
-* [Eclipse](https://maven.apache.org/) - The IDE used for the server and the RESTful functionality.
-
 
 ## Notes
 ----
@@ -103,5 +90,3 @@ Sign out (The sign-out script executes once a user has been logged out, it ensur
 Footer (The footer is used to store university details and information)
 
 About (At this current moment in time, no important data or functionality is stored in this script.)
-
-/////////////////////////////////////////
