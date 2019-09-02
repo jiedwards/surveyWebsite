@@ -1,16 +1,10 @@
 
+# Survey Website
 
-<h4>Website Testing Protocol</h4>
+The Calorie Counter App allows a user to recieve a personalised caloric maintenance figure, the calculation takes place one the user has registered an account on the app and entered the specified data.
 
-SETUP:
-/////////////////////////////////////////
-
-
-A survey must be taken before the results page will work!
-
-
-/////////////////////////////////////////
-
+## Getting Started
+----
 Run a server, XAMPP is recommended, load this entire folder into HTDOCS and then follow the steps below.
 
 -> = navigate to
@@ -22,11 +16,7 @@ Create Data -> Sign up/Sign in -> My Account -> Design and Analysis (Menu bar wi
 Public Surveys -> Click on "Sample Survey" to view survey questions -> Take Survey -> Results -> "Click HERE to take the survey again" in order to re-take a survey -> Share this survey -> 
 
 My Survey's -> Add a new survey -> Edit -> Update title/ Add Question / Update survey visibility -> Share survey -> Delete survey ->
-
- -> Sign out
- 
- /////////////////////////////////////////
-
+----
 (Admin account test. Username: "admin", Password: "secret".)
 Create Data -> Sign in -> My Account -> Design and Analysis (Menu bar with toggle options for competitors
 
@@ -37,15 +27,36 @@ My Survey's -> Add a new survey -> Edit -> Update title/ Add Question / Update s
 Admin tools -> Users/Surveys (Admin has access to all surveys in this portion of the website) -> Edit/Delete surveys/users ->
 
  -> Sign out)
- /////////////////////////////////////////
+
+ -> Sign out
+
+### Prerequisites
+----
+* XAMPP
+
+### Installing
+----
+
+***
 
 
-/////////////////*All other survey's have text-only responses.*//////////////////
+***
+
+
+## Built With
+
+* [Android Studio](https://developer.android.com/studio) - The IDE used to develop the app's functionality and UI.
+* [Eclipse](https://maven.apache.org/) - The IDE used for the server and the RESTful functionality.
+
+
+## Notes
+----
+* A survey must be taken before the results page will work!
 
 Website currently has the functionality to:
 
-Sign up
-Sign in
+* Sign up
+* Sign in
 User's can: 
 -update all of their own account details except their username
 -create survey's and add text-response questions to those surveys.
@@ -59,8 +70,8 @@ Admin has access to all the same functionality of the user plus:
 -able to edit/delete/share any survey created on the website
 -create new users/delete or update existing users
 
-/////////////////////////////////////////
-
+## File Information
+----
 DOCUMENTATION:
 ...
 The documentation for each file has been explained in the order which they occur, e.g. header and credentials are at the beginning of most other scripts and thus logically it is useful to explain the purpose and function of those scripts first.
@@ -93,27 +104,4 @@ Footer (The footer is used to store university details and information)
 
 About (At this current moment in time, no important data or functionality is stored in this script.)
 
-///////////////* In no particular order after this point is */////////////
-
-Questions_update - (This script file contains the information and queries to execute updates on questions when they are being edited by their creator or admin.)
-
-Responses_delete - (This script file contains the information and queries to execute an update to their previous survey's responses if that particular user wants to retake a survey.)
-
-Surveys_titleupdate - (This script file contains the information and queries to execute an update to the title of a survey.) 
-
-Surveys_complete - (This script file contains the information and queries to select all the questions from a particular survey. This file also executes the insert statement so a user's answers to a survey are saved and inserted into the database.) 
-
-Surveys_edit - (This script file contains the information and queries to execute edit's and modifications to a survey's properties, such as survey visibility, adding questions etc.)
- 
-Surveys_manage - (This script file contains queries which produces the information on the My Survey's section of the website, it also contains forms with information that is parsed to be able to delete a survey, share a survey, edit a survey etc.)
-
-Surveys_new - (This script file contains the functionality which allows the website to create a new survey.)
-
-Surveys_public - (Similar to Surveys_manage, this script file contains queries which produces the information on the Public Surveys section of the website, it also contains forms with information that is parsed to be able to take a survey, re-take a survey, share a survey etc.)
-
-Surveys_results - (This script file contains the functionality which allows the website to produce the results and responses for each survey taken on the website)
-
-Surveys_sharing - (This script file contains the functionality which allows the website to produce a link in order to share the survey.)
-
-Surveys_view - (This script file contains the functionality which displays the questions on each survey. Essentially allowing a user to view a survey before they decide to complete it.)
-
+/////////////////////////////////////////
